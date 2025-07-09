@@ -1,0 +1,2 @@
+terminal command to generate app key
+node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"  
